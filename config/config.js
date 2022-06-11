@@ -4,6 +4,6 @@ import {config as _config} from 'dotenv';
 _config();
 
 export const db = {
-  url: env.DB_URL,
-  name: env.DB_NAME,
+	url: env.DB_URL,
+	name: env.DB_NAME,
 };
